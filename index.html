@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Моя карточка~ </title>
+    <style>
+.card {
+  width: 550px;
+  height: 337px;
+  background-color: rgb(186, 167, 177);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.card_image {
+  background-color: rgb(146, 251, 233);
+  
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_image img {
+  border-radius: 16px;
+}
+.card-content {
+  background-color: rgb(253, 195, 48);
+  width: 50%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-content-type {
+  font-size: 16px;
+  color: rgb(33, 17, 0);
+  font-family: 'sans-serif';
+}
+.card-content-title {
+  font-size: 32px;
+  color: rgb(33, 17, 0);
+  font-family: 'serif';
+  font-weight: bold;
+  margin: 16px;
+  line-height: 1.1;
+}
+.card-content-description {
+  font-size: 16px;
+  color: rgb(33, 17, 0);
+  font-family: 'sans-serif';
+  font-weight: bold;
+}
+.card-content-price {
+  font-size: 32px;
+  color: rgb(33, 17, 0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.card-content-add {
+
+}
+
+    </style>
+
+  </head>
+  <body style="background-color:rgb(125, 130, 255)">
+    <div class="card">
+      <div class="card_image">
+        <img  src="6bcc452a-2272-4272-bb43-ec95bdcd4944.jpg" width="200" height="200"> 
+      </div>
+      <div class="card-content"> 
+      <div class="card-content-type"> ПЕРФУМЕ </div>
+      <div class="card-content-title"> Пахнет, как я не знаю, что. </div>
+      <div class="card-content-description"> Я прадва не знаю, что ещё может так пахнуть, оно явно не для простых людей</div>
+      <div class="card-content-price"> 149 миллионов деньга штук </div>
+      <button class="add"> Add to card </button>
+
+      </div>
+   </div>
+  </body>
+</html>
