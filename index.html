@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <title>Moia Kartochka</title>
     <style>
       @tailwind base;
@@ -12,9 +12,41 @@
       @tailwind utilities;
     </style>
     </head>
-  <body class="bg-neutral-200"> 
-    <div class="bg-amber-100 w-320 h-96">
-    </div>
+  <body class= "bg-amber-100 flex flex-row justify-center"> 
+    <div class="bg-red-200 flex flex-col w-[240px] h-[240px] rounded-2xl justify-between m-12 p-4">
+
+      <div class="flex flex-row justify-between items-center">
+        <span><iconify-icon icon="openmoji:youtube" style="font-size: 60px;"></iconify-icon></span>
+        <div class="rounded-full bg-green-600 px-4 py-2 flex flex-col justify-center">
+          <span class="text-amber-100 text-sm font-bold leading-none">Free</span>
+        </div>
+      </div>
+
+      <div class="flex flex-col">
+        <span>Videos</span>
+        <span>Youtube </span>
+      </div>
+
+      <div class="flex flex-row justify-between"> 
+          <div class="flex flex-col">
+            <span>Rating</span>
+            <span>5.0</span>
+          </div>
+          <div class="flex flex-col">
+            <span>Size</span>
+            <span>98.5mb</span>
+          </div>
+          <div class="flex flex-col">
+            <span>Downloads</span>
+            <span>8.5m</span>
+          </div>
+      </div>
+
+      <div class="flex flex-row justify-between"> 
+        <div>icon</div>
+        <div>30 Mb/sec</div>
+      </div>
+
     </div>
   </body>
 </html>
