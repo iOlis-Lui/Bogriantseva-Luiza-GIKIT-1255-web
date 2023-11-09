@@ -1,52 +1,58 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <title>Moia Kartochka</title>
-    <style>
-      @tailwind base;
-      @tailwind components;
-      @tailwind utilities;
-    </style>
-    </head>
-  <body class= "bg-amber-100 flex flex-row justify-center"> 
-    <div class="bg-red-200 flex flex-col w-[240px] h-[240px] rounded-2xl justify-between m-12 p-4">
 
-      <div class="flex flex-row justify-between items-center">
-        <span><iconify-icon icon="openmoji:youtube" style="font-size: 60px;"></iconify-icon></span>
-        <div class="rounded-full bg-green-600 px-4 py-2 flex flex-col justify-center">
-          <span class="text-amber-100 text-sm font-bold leading-none">Free</span>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <title>Moia Kartochka</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  </style>
+  <style>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+  </style>
+</head>
+
+<body class="bg-slate-50 flex flex-row justify-center">
+  <div class="bg-red-200 flex flex-col w-[260px] h-[240px] rounded-2xl justify-between m-12 p-4">
+
+    <div class="flex flex-row justify-between items-center h-[40px]">
+      <span><iconify-icon icon="openmoji:youtube" style="font-size: 60px;"></iconify-icon></span>
+      <div class="rounded-full bg-green-600 px-4 py-2 flex flex-col justify-center">
+        <span class="text-amber-100 text-sm font-bold leading-none">Free</span>
       </div>
-
-      <div class="flex flex-col">
-        <span>Videos</span>
-        <span>Youtube </span>
-      </div>
-
-      <div class="flex flex-row justify-between"> 
-          <div class="flex flex-col">
-            <span>Rating</span>
-            <span>5.0</span>
-          </div>
-          <div class="flex flex-col">
-            <span>Size</span>
-            <span>98.5mb</span>
-          </div>
-          <div class="flex flex-col">
-            <span>Downloads</span>
-            <span>8.5m</span>
-          </div>
-      </div>
-
-      <div class="flex flex-row justify-between"> 
-        <div>icon</div>
-        <div>30 Mb/sec</div>
-      </div>
-
     </div>
-  </body>
+
+    <div class="flex flex-col">
+      <span class="text-sm">Videos</span>
+      <span class="text-2xl font-bold">Youtube </span>
+    </div>
+
+    <div class="flex flex-row justify-between">
+      <div class="flex flex-col">
+        <span>Rating</span>
+        <span class="font-bold">5.0</span>
+      </div>
+      <div class="flex flex-col">
+        <span>Size</span>
+        <span class="font-bold">98.5mb</span>
+      </div>
+      <div class="flex flex-col">
+        <span>Downloads</span>
+        <span class="font-bold">8.5m</span>
+      </div>
+    </div>
+
+    <div class="flex flex-row justify-start items-center space-x-4">
+        <iconify-icon icon="carbon:pause-outline" style="font-size: 40px; color:rgb(0, 58, 139)"></iconify-icon>
+        <div class="text-sm">30 Mb/sec</div>
+    </div>
+
+  </div>
+</body>
+
 </html>
